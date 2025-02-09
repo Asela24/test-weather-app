@@ -1,0 +1,12 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 186px;
+    height: 100%;
+}
+
+.header-container {
+    display: flex;
+    margin: 75px 75px 0 99px;
+    justify-content: space-between;
+}

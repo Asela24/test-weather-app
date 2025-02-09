@@ -1,0 +1,11 @@
+.label {
+    font-weight: 400;
+    size: 18px;
+    line-height: 21.6px;
+    opacity: 0.6;
+}
+
+.info {
+    font-size: 25px;
+    line-height: 30px;
+}

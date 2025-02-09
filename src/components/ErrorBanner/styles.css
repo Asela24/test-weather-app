@@ -1,0 +1,32 @@
+.error-banner-container {
+  display: flex;
+  justify-content: center;
+}
+
+.error-banner {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 300px;
+    border-radius: 4px;
+    padding: 12px;
+    background-color: #fdeceae1;
+  }
+
+.error-banner > p {
+    color: #b71c1c;
+    text-align: center;
+}
+
+.close-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: none;
+  border: none;
+  color: #b71c1c;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+}

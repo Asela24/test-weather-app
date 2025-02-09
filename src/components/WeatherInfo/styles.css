@@ -1,0 +1,16 @@
+.weather-info-container {
+    align-self: center;
+}
+
+.temp-info {
+    font-size: 180px;
+    line-height: 216px;
+    justify-self: center;
+    align-self: center;
+}
+
+.detailed-info {
+    font-size: 25px;
+    line-height: 30px;
+    justify-self: center;
+}

@@ -1,0 +1,7 @@
+.detailed-info-container {
+    display: flex;
+    gap: 127px;
+    justify-content: center;
+    margin-left: 101px;
+    margin-top: 32px;
+}

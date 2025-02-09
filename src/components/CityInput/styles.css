@@ -1,0 +1,51 @@
+.city-input-container, .city-input-container > input {
+    position: relative;
+    width: 579px;
+    height: 80px;
+    box-sizing: border-box;
+}
+
+.city-input-container > input {
+    font-size: 30px;
+    line-height: 36px;
+    padding: 30px;
+    border-radius: 8px;
+    border: none;
+}
+
+input:focus-visible {
+    border: none;
+    outline: none;
+}
+
+.submit-btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    padding-right: 30px;
+    color: #1086FF;
+    font-size: 30px;
+}
+
+.submit-btn:active, .submit-btn:hover {
+  color: #0053ba;
+}
+
+.loader {
+    width: 25px;
+    height: 25px;
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

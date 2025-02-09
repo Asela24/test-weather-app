@@ -1,0 +1,33 @@
+.city-selection-container {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 0;
+}
+
+.location-btns-container > button {
+    font-size: 18px;
+    opacity: 0.6;
+}
+
+.location-btns-container > button:hover, 
+.location-btns-container > button:active {
+    color: #0053ba;
+}
+
+.location-btns-container {
+    display: flex;
+    gap: 25px;
+}
+
+
+.location-btn {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
