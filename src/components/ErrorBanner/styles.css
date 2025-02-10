@@ -1,6 +1,9 @@
 .error-banner-container {
   display: flex;
   justify-content: center;
+  position: absolute;
+  right: 10px;
+  top: 15px;
 }
 
 .error-banner {
